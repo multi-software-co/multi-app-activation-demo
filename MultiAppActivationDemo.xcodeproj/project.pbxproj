@@ -8,17 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D772EAC82B751FEF005BF70E /* MultiAppActivationDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772EAC72B751FEF005BF70E /* MultiAppActivationDemoApp.swift */; };
-		D772EACA2B751FEF005BF70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D772EAC92B751FEF005BF70E /* ContentView.swift */; };
-		D772EACC2B751FF0005BF70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D772EACB2B751FF0005BF70E /* Assets.xcassets */; };
-		D772EACF2B751FF0005BF70E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D772EACE2B751FF0005BF70E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D772EAC42B751FEF005BF70E /* MultiAppActivationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiAppActivationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D772EAC72B751FEF005BF70E /* MultiAppActivationDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAppActivationDemoApp.swift; sourceTree = "<group>"; };
-		D772EAC92B751FEF005BF70E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D772EACB2B751FF0005BF70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D772EACE2B751FF0005BF70E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D772EAD02B751FF0005BF70E /* MultiAppActivationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiAppActivationDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,20 +47,9 @@
 			isa = PBXGroup;
 			children = (
 				D772EAC72B751FEF005BF70E /* MultiAppActivationDemoApp.swift */,
-				D772EAC92B751FEF005BF70E /* ContentView.swift */,
-				D772EACB2B751FF0005BF70E /* Assets.xcassets */,
 				D772EAD02B751FF0005BF70E /* MultiAppActivationDemo.entitlements */,
-				D772EACD2B751FF0005BF70E /* Preview Content */,
 			);
 			path = MultiAppActivationDemo;
-			sourceTree = "<group>";
-		};
-		D772EACD2B751FF0005BF70E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D772EACE2B751FF0005BF70E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +110,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D772EACF2B751FF0005BF70E /* Preview Assets.xcassets in Resources */,
-				D772EACC2B751FF0005BF70E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D772EACA2B751FEF005BF70E /* ContentView.swift in Sources */,
 				D772EAC82B751FEF005BF70E /* MultiAppActivationDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +254,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MultiAppActivationDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = PLD4Q3JZYY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,11 +281,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MultiAppActivationDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = PLD4Q3JZYY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
